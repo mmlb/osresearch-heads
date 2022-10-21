@@ -1,0 +1,82 @@
+{
+  "nodes": {
+    "devshell": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1666548262,
+        "narHash": "sha256-4DyN4KXqQQsCw0vCXkMThw4b5Q4/q87ZZgRb4st8COc=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "c8ce8ed81726079c398f5f29c4b68a7d6a3c2fa2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "gnat6nixpkgs": {
+      "locked": {
+        "lastModified": 1657800791,
+        "narHash": "sha256-pTHq8upikwsj9xorQatXkTKTIkQ+kODwc+Sp59k6P/E=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "19cb612405c82c7f4fb3ce4497e24c1efa0b1935",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "rev": "19cb612405c82c7f4fb3ce4497e24c1efa0b1935",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1666959691,
+        "narHash": "sha256-TRpWA3t8ata79HOGtFd5dDCl1kJQmIE16PDF53/Hcxo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "448a599c49978c2794401bfc3a2e1fba1a8663be",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-unstable",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "devshell": "devshell",
+        "flake-utils": "flake-utils",
+        "gnat6nixpkgs": "gnat6nixpkgs",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
