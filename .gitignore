@@ -19,6 +19,7 @@
 *.xz
 *~
 .*.sw*
+/.direnv/
 clean
 config/*.old
 crossgcc
